@@ -6,7 +6,7 @@ import plotly.express as px
 from dotenv import load_dotenv
 import os
 import plotly.graph_objects as go
-load_dotenv("api_keys.env")
+load_dotenv()
 import matplotlib.pyplot as plt
 
 db_name = os.getenv("DB_NAME")
